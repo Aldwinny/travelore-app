@@ -1,6 +1,6 @@
 # travelore
 
-A new Flutter project.
+A flutter project that focuses on tourism and finding what's best for you. It helps you travel safely by giving extra information supplied by various APIs.
 
 ## Getting Started
 
