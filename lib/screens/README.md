@@ -1,0 +1,2 @@
+# Structure of the Application
+There are 4 existing folders which contain different screens and logic. Authenticate folder has the Widgets for logging in and registering into the application. Home folder has the widgets that represents the main application. Model folder contains classes that represent the different types of models (i.e. User, Content, etc.). Service folder contains classes that handle the application's backend like Authentication to database and such.
