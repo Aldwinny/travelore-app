@@ -57,14 +57,14 @@ class HomeNaviBar extends BottomAppBar {
                 icon: FontAwesomeIcons.compass,
                 onPressed: cmd2,
                 active: active == 2 ? true : false,
-                text: 'Explore',
+                text: 'Travel',
                 size: 23,
               ),
               NaviButton(
                 icon: FontAwesomeIcons.user,
                 onPressed: cmd3,
                 active: active == 3 ? true : false,
-                text: 'Library',
+                text: 'Profile',
                 size: 23,
               ),
             ],
@@ -86,6 +86,7 @@ class NaviButton extends Expanded {
             key: key,
             child: InkWell(
                 splashFactory: InkRipple.splashFactory,
+                splashColor: Colors.pink[50],
                 borderRadius: BorderRadius.circular(50.0),
                 child: Container(
                   padding: EdgeInsets.only(bottom: (raise ?? 0) + 8, top: 8),
@@ -93,11 +94,11 @@ class NaviButton extends Expanded {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       FaIcon(icon,
-                          color: active ? Colors.red : Colors.grey[600],
+                          color: active ? Colors.pink[600] : Colors.grey[600],
                           size: size),
                       Text(text ?? '',
                           style: TextStyle(
-                              color: active ? Colors.red : Colors.black,
+                              color: active ? Colors.pink[600] : Colors.black,
                               fontSize: 10.0))
                     ],
                   ),
