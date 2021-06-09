@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travelore/screens/model/constants.dart';
+import 'package:travelore/shared/constants.dart';
 
 class User {
   String uid;
